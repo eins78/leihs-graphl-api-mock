@@ -2,7 +2,7 @@ import express from 'express'
 import { ApolloServer, gql } from 'apollo-server-express'
 import * as Schema from './schema'
 
-const PORT = 3700
+const PORT = process.env.PORT || 3700
 
 const apolloServer = new ApolloServer({
   schema: Schema.schema
