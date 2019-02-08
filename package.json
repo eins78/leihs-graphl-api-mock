@@ -10,6 +10,7 @@
   "author": "",
   "devDependencies": {
     "babel-cli": "^6.24.0",
+    "babel-plugin-import-graphql": "^2.6.2",
     "babel-plugin-transform-async-generator-functions": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-plugin-transform-runtime": "^6.23.0",
@@ -17,22 +18,24 @@
     "nodemon": "^1.11.0"
   },
   "dependencies": {
-    "body-parser": "^1.17.1",
-    "express": "^4.15.2",
-    "graphql-tools": "^3.1.1",
-    "graphql-iso-date": "^3.5.0",
-    "graphql-type-json": "^0.2.1",
-    "lodash": "^4.17.10",
     "ap-style-title-case": "^1.0.1",
+    "apollo-engine": "^1.0.4-evans.0",
+    "apollo-server-express": "^2.4.0",
+    "body-parser": "^1.18.2",
     "casual-browserify": "^1.5.19-2",
     "categorized-words": "^1.0.0",
-    "graphql": "^0.12.3",
-    "graphql-tools": "^2.15.0",
-    "apollo-engine": "^1.0.4-evans.0",
     "express": "^4.16.2",
-    "webtask-tools": "^3.2.0",
-    "body-parser": "^1.18.2",
+    "graphql": "^14.1.1",
+    "graphql-iso-date": "^3.5.0",
+    "graphql-tag": "^2.10.1",
+    "graphql-tools": "^4.0.4",
+    "graphql-type-json": "^0.2.1",
     "launchpad-module": "^0.0.0",
-    "apollo-server-express": "^1.2.0"
+    "lodash": "^4.17.10",
+    "webtask-tools": "^3.2.0"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
   }
 }
